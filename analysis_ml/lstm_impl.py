@@ -1,6 +1,10 @@
 from keras.models import Sequential
 from keras.layers import LSTM, Dense
 
+timesteps = 1
+input_dim = 1
+
+output_dim = 1
 # Define the LSTM model
 model = Sequential()
 model.add(LSTM(units=64, input_shape=(timesteps, input_dim)))
