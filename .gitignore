@@ -9,3 +9,21 @@ air_22_dec_to_23_nov.csv
 air_22_dec_to_23_nov_averages.csv
 average_air_quality_by_borough_22Dec_to_23_Nov.csv
 average_air_quality_by_borough_22Dec_to_23_Nov_daily.csv
+station_borough_all.csv
+merged_journeys_new.csv
+merged_journeys_new_with_borough.csv
+merged_journeys_new.csv.csv（副本）:Zone.Identifier
+station_borough_all.csv:Zone.Identifier
+transfer_orig_to_new.py:Zone.Identifier
+2024 CUSP London Data Dive Programme 1.pdf:Zone.Identifier
+cycle_in_borough_daily.csv
+cycle_df_end_flow_pivot_raw.csv
+cycle_end_borough_daily.csv
+cycle_df_end_flow_pivot.csv
+df_start_flow_raw.csv
+df_end_flow_raw.csv
+df_start_flow_raw_v2.csv
+cycle_start_borough_daily_final.csv
+cycle_end_borough_daily_final.csv
+cycle_start_borough_daily_final_v2.csv
+
