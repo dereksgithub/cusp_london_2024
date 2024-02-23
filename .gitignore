@@ -26,4 +26,7 @@ df_start_flow_raw_v2.csv
 cycle_start_borough_daily_final.csv
 cycle_end_borough_daily_final.csv
 cycle_start_borough_daily_final_v2.csv
-
+cycle_start_borough_daily_final_v3.csv
+air_quality.csv
+/maps/
+/visuals/

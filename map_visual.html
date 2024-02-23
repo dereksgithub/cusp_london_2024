@@ -1,0 +1,18 @@
+<script src="https://d3js.org/d3.v5.min.js"></script>
+d3.json('data.geojson').then(function(bb) {
+    let width = 200, height = 200;
+    let projection = d3.geoEqualEarth();
+    projection.fitSize([width, height], bb);
+    let geoGenerator = d3.geoPath()
+    6  .projection(projection);
+    7
+    8  let svg = d3.select("body").append('svg')
+    9  .style("width", width).style("height", height);
+   10
+   11  svg.append('g').selectAll('path')
+   12  .data(bb.features)
+   13  .join('path')
+   14  .attr('d', geoGenerator)
+   15  .attr('fill', '#088')
+   16  .attr('stroke', '#000');
+   17});
